@@ -6,13 +6,12 @@ h1{
     font-size: 50px;
     font-weight: bold;
 }
-
 .orange-color{
     color: orange;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 .half-width{
     width: 50%;
@@ -37,11 +36,9 @@ h1{
     padding-left: 30px;
 }
 
-.background-add1{
-    background-image: url(images/shapes/bg-2.jpg);
-}
-.background-add2{
+.background-add{
     background-image: url(images/shapes/bg-1.png);
+    background-repeat: no-repeat;
 }
 .recipies-part{
     color: gray;
@@ -50,4 +47,44 @@ h1{
     margin-left: 20%;
     margin-right:  20%;
     
+}
+.recipie-order{
+    width: 22%;
+    margin-left: 4%;
+    margin-right: 6%;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-order h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.recipie-photo{
+    width: 100%;
+    height: 50%;
+
+}
+.social-media-box{
+    width: 87%;
+    margin-left: 4%;
+    padding-left: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px burlywood;
+}
+.social-media-info{
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 30px;    
 }
