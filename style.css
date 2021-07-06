@@ -9,6 +9,34 @@ h1{
 .orange-color{
     color: orange;
 }
+.input-button-head{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.input-button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+#logo{
+    color: black;
+    border: 5px double black;
+    padding: 5px ;
+    width: 18%;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
 .flexible-container{
     display: flex;
     margin-bottom: 140px;
@@ -84,7 +112,8 @@ footer{
     color: white;
     background-color: black;
     text-align: center;
-    height: 200px;
+    height: 250px;
     font-size: 18px;
-    padding-top: 30px;    
+    padding-top: 5px;    
 }
+
